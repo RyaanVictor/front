@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+#struct{
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+#img{
+    flex: 1;
+}
+#img img{
+    width: 170%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:15px ;
+}
+#form{
+    flex: 1;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#form img{
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+}
+h2 {
+    font-family: arial;
+    font-size: 20pt;
+    color: darkblue;
+    margin-bottom: 50px;
+}
+input[type="text"],input[type="password"]{
+    width: 70%;
+    padding: 10px;
+    display: block;
+    margin: 8px auto;
+    font-family: verdana;
+    font-size: 15pt;
+}
+input[type="submit"]{
+    margin: 30px;
+    border: 0px;
+    background-color: midnightblue;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+}
+#form a {
+    width: 200px;
+    padding:10px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+    transition: ease 0.5s;
+}
+#form a:hover{
+    background-color: white;
+    color: darkblue;
+}
